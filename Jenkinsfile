@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("eloka/flaskapp")
+       app = docker.build("raj80dockerid/test")
     }
 
     stage('Test image') {
